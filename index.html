@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+        <html lang="en">
+<head>
+    <title>PRG147 Hangman Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body class="bodycolor">
+        <div class="container">
+            <div class="header">
+                <h1>Hangman!</h1>
+                <h2>Guess correctly, a stick figure life depends on it.</h2>
+            </div>
+            <div  class="chances">
+            <p id="guesses">
+                <strong>You have 10 chances to guess letters!</strong>
+            </p>
+            <p id="game"> </p>
+            </div>
+            <div class="gamePlay">
+                <form name="form1">
+                 <label>
+                        Input a letter here, then click guess
+                        <input id="letter" type="text" maxlength="3" size="3" name="letter">
+                </label>
+                <input id="submit" type="button" value="Guess!" name="submit">
+                </form>
+                   <!-- <div>
+                        <p>win_num</p>
+                        <p id="win_num"></p>
+                        <p id="wrongGuess"></p>
+                        <p>outcome</p>
+                        <p id="outcome"></p>
+                    </div>
+                    -->
+            </div>
+
+            <div class="images">
+                <div class="imagesBox">
+                    <img src="images/img00.png" alt ="Another one bites the dust, refresh to retry!" id = "hang" >
+                </div>
+
+            <div class="footer">
+
+                <p><a href="http://nellison.mccdgm.net/index.html">Assignment Index</a></p>
+            </div>
+
+
+
+        </div>
+
+
+</body>
+</html>
